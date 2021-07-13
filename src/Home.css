@@ -1,0 +1,215 @@
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+.upper_container {
+  display: flex;
+}
+
+.font {
+  font-weight: 10px;
+  font-size: x-large;
+  padding-right: 20px;
+  margin-top: -8px;
+}
+
+.headers {
+  display: flex;
+}
+
+.image_white_table {
+  position: relative;
+  width: 59%;
+}
+
+.letter {
+  letter-spacing: 0.4rem;
+}
+
+.header_image {
+  height: 100%;
+  background-size: cover;
+  background-image: url("./images-nikelfox/desktop-image-hero-1.jpg");
+}
+
+.headers {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  color: white;
+}
+
+.bottom_image_1 {
+  background-image: url("./images-nikelfox/image-about-dark.jpg");
+}
+
+.bottom_image_2 {
+  background-image: url("./images-nikelfox/image-about-light.jpg");
+}
+.room {
+  padding: 0;
+  margin: 10;
+}
+.headers ul {
+  list-style: none;
+  display: flex;
+}
+
+.headers ul li {
+  margin-right: 25px;
+}
+
+.right_container {
+  /* padding-bottom: 20%; */
+  position: relative;
+  flex-direction: column;
+  width: 41%;
+  height: 70%;
+  margin-top: 10px;
+}
+.text_white_table {
+  text-align: left;
+  padding: 15%;
+  padding-bottom: 25%;
+}
+.discovery_para {
+  color: grey;
+}
+
+.bottom_para {
+  color: grey;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.shopnow {
+  display: flex;
+}
+
+.arrow {
+  padding-left: 50px;
+  padding-top: 32px;
+}
+
+.bottom_text {
+  text-align: left;
+  padding: 3%;
+}
+
+.meterial_icon {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.bottom_container {
+  display: flex;
+  /* box-sizing: border-box; */
+  padding: 0%;
+  margin: 0%;
+}
+
+.bottom_image_1,
+.bottom_image_2,
+.bottom_text {
+  width: 33.3%;
+  margin: 0%;
+}
+
+.menubar {
+  display: none;
+}
+
+.about {
+  letter-spacing: 0.4rem;
+}
+.room {
+  display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+  .headers ul li {
+    display: none;
+  }
+
+  .menubar {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+    left: 2%;
+  }
+
+  .room {
+    color: white;
+    display: initial;
+    position: absolute;
+
+    left: calc(50% - 28px);
+    top: 2.7%;
+    z-index: 10;
+  }
+  .image_white_table {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .upper_container {
+    flex-direction: column;
+  }
+
+  .right_container {
+    width: 100%;
+  }
+
+  .room {
+  }
+  .image {
+    width: 100%;
+  }
+
+  .header_image {
+    position: relative;
+    /* top:50px */
+  }
+
+  .bottom_container {
+    flex-direction: column;
+  }
+
+  .bottom_image_1,
+  .bottom_image_2 {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .bottom_text {
+    text-align: left;
+    padding-left: 30px;
+    width: 80%;
+    /* padding: 3%; */
+  }
+  .meterial_icon {
+    top: -77px;
+    left: 271px;
+    height: 27px;
+    width: 50px;
+  }
+
+  .text_white_table {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
